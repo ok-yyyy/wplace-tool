@@ -29,9 +29,10 @@ import (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "wplace-tool",
-	Short: "A small collection of helper CLI tools for wplace",
-	Long: `wplace-tool is a small collection of command-line utilities to help working with wplace.`,
+	Use:     "wplace-tool",
+	Version: "0.0.1",
+	Short:   "A small collection of helper CLI tools for wplace",
+	Long:    `wplace-tool is a small collection of command-line utilities to help working with wplace.`,
 }
 
 func Execute() {
