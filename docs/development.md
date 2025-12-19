@@ -12,3 +12,11 @@ go install github.com/spf13/cobra-cli@latest
 ```sh
 cobra-cli init --license MIT --viper=false
 ```
+
+## サブコマンド追加
+
+新しいサブコマンドを追加するには:
+
+```sh
+cobra-cli add <name>
+```
